@@ -1,0 +1,152 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+}
+
+body{
+    background-color: #1F3B85;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(255,0,0,0), #000);
+}
+
+.skiell{
+    margin: 20px 0 0 50px;
+    height: 54px;
+    width: 50px;
+    float: left;
+}
+
+.inventory{
+    color: #f5f5f5;
+    margin: 40px 0 0 15px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 18px;
+    float: left;
+}
+
+.navigasi{
+    background: linear-gradient(to top, rgba(255,0,0,0), #000);
+    margin: 0 0 0 550px;
+    padding: 10px 40px 0 0;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.active{
+    background-color: #0099cb;
+    color: #f5f5f5;
+    margin: 0 5px 0 5px;
+    height: 50px;
+    width: 130px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.akun, .riwayat, .beranda, .status{
+    background: linear-gradient(to right, rgba(255,0,0,0), #999);
+    color: linear-gradient(to right, rgba(255,0,0,0), #f5f5f5);
+    margin: 0 5px 0 5px;
+    height: 50px;
+    width: 130px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.riwayat{
+    background: linear-gradient(to left, rgba(255,0,0,0), #999);
+}
+
+.underline{
+    background-color: #0099cb;
+    height: 5px;
+    width: 80px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.akun:hover, .riwayat:hover, .beranda:hover, .status:hover{
+    background: linear-gradient(to right, #0099cb, #0099cb);
+    color: #f5f5f5;
+}
+
+.back-label{
+    background-color: #999;
+    color: #f5f5f5;
+    margin: 30px;
+    height: 35px;
+    width: 110px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.back-label:hover{
+    background-color: #0099cb;
+    color: #f5f5f5;
+}
+
+.form-pinjam{
+    background-color: #f5f5f5;
+    margin: auto auto auto auto;
+    padding: 0px;
+    height: 775px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.label-pinjam{
+    padding: 25px 0 15px 0;
+}
+
+label{
+    color: #000;
+}
+
+.isi{
+    margin: 0 40px 0 40px;
+}
+
+input{
+    background-color: #f5f5f5;
+    margin-top: 5px;
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.tombol{
+    background-color: #999;
+    color: #f5f5f5;
+    margin: 15px 0 20px 0;
+    padding: 5px 20px;
+    height: 35px;
+    width: 140px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.tombol:hover{
+    background-color: #0099cb;
+    color: #f5f5f5;
+}

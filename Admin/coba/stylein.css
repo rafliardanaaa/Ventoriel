@@ -1,0 +1,36 @@
+body{
+    background-color: #219eb2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: inherit;
+}
+
+table{
+    background-color: #6e6e6e;
+    border: none;
+}
+
+.b1{
+    background-color: #085c6f;
+    color: #f5f5f5;
+}
+
+tr{
+    background-color: #fff;
+}
+
+th, td{
+    padding: 10px 20px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+tr:nth-child(even){
+    background-color: #c4c4c4;
+}
+
+
+
+

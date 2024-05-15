@@ -1,0 +1,107 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+}
+
+body{
+    background-color: #1F3B85;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.486), #000);
+    height: 80px;
+    width: 100%;
+}
+
+.navigasi{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.39), #000);
+    margin: 0 709px 0 auto;
+    padding: 5px 40px 0 0;
+    height: 85px;
+    width: 480px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.active{
+    background-color: #4C6DC3;
+    color: #f5f5f5;
+    margin: 0 5px 0 5px;
+    height: 50px;
+    width: 130px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.riwayat, .beranda{
+    background-color: rgba(153, 153, 153, 0.444);
+    margin: 0 5px 0 5px;
+    height: 50px;
+    width: 130px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.underline{
+    background-color: #1F3B85;
+    margin-right: 307px;
+    height: 5px;
+    width: 80px;
+    border-radius: 50px;
+
+}
+
+.riwayat:hover, .beranda:hover, .pinjam:hover, .status:hover{
+    background: linear-gradient(to right, #4C6DC3, #4C6DC3);
+    color: #f5f5f5;
+}
+
+.box{
+    background-color: #f5f5f5;
+    margin: 250px auto auto auto;
+    padding: 50px;
+    height: 250px;
+    width: 500px;
+    border-radius: 25px;
+}
+
+.box-profil{
+    background-color: #f5f5f5;
+    padding: 15px;
+    height: 150px;
+    width: 150px;
+    border-radius: 160px;
+    margin-top: -150px;
+}
+
+.box-gambar{
+    height: 150px;
+    width: 150px;
+    mix-blend-mode: multiply;
+}
+
+.box-tab{
+    background-color: #4C6DC3;
+    color: #f5f5f5;
+    padding: 20px 50px;
+    height: 120px;
+    width: auto;
+    border-radius: 25px;
+}
+
+.box-username, .box-password{
+    font-size: 23px;
+}
